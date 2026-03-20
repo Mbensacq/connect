@@ -1,0 +1,43 @@
+ Nom Commune | Nombre d'habitants 
+-------------+--------------------
+ Floirac     |              17749
+ Lormont     |              23291
+ Eysines     |              24374
+ Gradignan   |              25835
+ Cenon       |              26778
+ Bègles      |              30813
+ Talence     |              45225
+ Pessac      |              66760
+ Mérignac    |              75729
+ Bordeaux    |             261604
+(10 rows)
+
+ Numéro Dépôt |    Date    | Poids (kg) 
+--------------+------------+------------
+            7 | 2024-03-08 |        750
+(1 row)
+
+ Nombre de dépôts 
+------------------
+                4
+(1 row)
+
+ Numéro Dépôt |    Date    |  Heure   | Poids (kg) | Commune  
+--------------+------------+----------+------------+----------
+           14 | 2024-05-15 | 11:00:00 |        550 | Lormont
+           13 | 2024-05-15 | 10:00:00 |        700 | Lormont
+           10 | 2024-04-29 | 09:00:00 |        550 | Lormont
+           27 | 2024-03-25 | 10:15:00 |        750 | Bordeaux
+           26 | 2024-03-10 | 14:30:00 |        650 | Lormont
+           28 | 2024-02-15 | 09:00:00 |        520 | Talence
+           11 | 2024-01-29 | 09:30:00 |        600 | Lormont
+(7 rows)
+
+ Immatriculation |    Propriétaire    
+-----------------+--------------------
+ AB-123-CD       | Bordeaux Metropole
+ FD-442-WS       | Veolia
+ TB-555-PP       | Semoctom
+ VG-244-SW       | Bordeaux Metropole
+(4 rows)
+

@@ -1,0 +1,45 @@
+psql:queries.sql:6: ERROR:  relation "commune" already exists
+psql:queries.sql:11: ERROR:  relation "camion" already exists
+psql:queries.sql:15: ERROR:  relation "typedechet" already exists
+psql:queries.sql:25: ERROR:  relation "depot" already exists
+psql:queries.sql:28: ERROR:  duplicate key value violates unique constraint "commune_nomcommune_key"
+DETAIL:  Key (nomcommune)=(Bordeaux) already exists.
+psql:queries.sql:29: ERROR:  duplicate key value violates unique constraint "commune_nomcommune_key"
+DETAIL:  Key (nomcommune)=(Talence) already exists.
+psql:queries.sql:30: ERROR:  duplicate key value violates unique constraint "commune_nomcommune_key"
+DETAIL:  Key (nomcommune)=(Pessac) already exists.
+psql:queries.sql:31: ERROR:  duplicate key value violates unique constraint "commune_nomcommune_key"
+DETAIL:  Key (nomcommune)=(Lormont) already exists.
+psql:queries.sql:32: ERROR:  duplicate key value violates unique constraint "commune_nomcommune_key"
+DETAIL:  Key (nomcommune)=(Mérignac) already exists.
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+psql:queries.sql:41: ERROR:  duplicate key value violates unique constraint "camion_pkey"
+DETAIL:  Key (numimmat)=(XZ-985-UI) already exists.
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+psql:queries.sql:48: ERROR:  duplicate key value violates unique constraint "camion_pkey"
+DETAIL:  Key (numimmat)=(TB-555-PP) already exists.
+INSERT 0 1
+psql:queries.sql:52: ERROR:  duplicate key value violates unique constraint "typedechet_pkey"
+DETAIL:  Key (codetype)=(CA) already exists.
+psql:queries.sql:53: ERROR:  duplicate key value violates unique constraint "typedechet_pkey"
+DETAIL:  Key (codetype)=(PA) already exists.
+psql:queries.sql:54: ERROR:  duplicate key value violates unique constraint "typedechet_pkey"
+DETAIL:  Key (codetype)=(VE) already exists.
+psql:queries.sql:55: ERROR:  duplicate key value violates unique constraint "typedechet_pkey"
+DETAIL:  Key (codetype)=(PL) already exists.
+INSERT 0 1
+psql:queries.sql:57: ERROR:  duplicate key value violates unique constraint "typedechet_pkey"
+DETAIL:  Key (codetype)=(TE) already exists.
+psql:queries.sql:86: ERROR:  syntax error at or near "("
+LINE 3: (5,'08/01/24','10:00','7750','7000','VE','AB-123-CD',2)
+        ^
