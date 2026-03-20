@@ -1,2 +1,1 @@
-# connect
-Repo designed to help transfer files through devices
+Mettre le bashrc dans ce dossier
